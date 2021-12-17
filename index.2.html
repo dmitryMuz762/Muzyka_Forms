@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+    <script src = "scripts/script.js"></script>
+
+</head>
+<header>
+    <h1 class="ColorElement">
+        This is form
+    </h1>
+</header>
+
+<body>
+    <div class="borderElement grid-contoiner">
+        <div class="d1">
+        </div>
+        <div class="d2"></div>
+        <div class="d3">
+    </div>
+    <div class="d4"></div>
+    <form name = "Aboba">
+        <div class="d5">
+            <p><b>Как Вам удобно получить ответ:</b></p>
+            <p><input name="answear" type="radio" value="email"> по почте</p>
+            <p><input name="answear" type="radio" value="phone"> по телефону</p>
+            <p><input name="answear" type="radio" value="notAnswear" > не нужно отвечать</p>
+        
+        </div>
+        <div class="d6">
+            <p><b>Укажите тему вопроса</b></p>
+            <select class="borderBox Size_text">
+                <option>Работа</option>
+                <option>Учёба</option>
+                <option>Заказы</option>
+            </select>
+        </div>
+        <div class="d7">
+            
+                <p><b>И еще один вопрос?</b></p>
+                <p><input name="answear_1" type="checkbox" value="yes"> может так</p>
+                <p><input name="answear_2" type="checkbox" value="not"> или не так</p>
+                <p><input name="answear_3" type="checkbox" value="maybe" > иначе</p>
+            
+        </div>
+        <div class="d8">
+            
+                <div class="test"><label for="name">Ваше имя</label>   <input class="borderBox Size_text" type="name" id="name"> </div>
+                <div class="test"><label for="email">Адрес почты</label> <input class="borderBox Size_text" type="email" id="email"> </div>
+                <div class="test"><label for="phone">Tелефон</label> <input class="borderBox Size_text" type="num_fon" id="num_fon"> </div>
+            
+        </div>
+        <div class="d9">
+            <p><label for="вопрос">Ваш вопрос</label> <input class="Size_form" type="question" id="question"></p>
+        </div>
+        <div class="d10">
+            <p><input class="borderBox my_button"  type="submit" value="Отправить" onclick="handleForm()" name="but"></p>
+            
+        </div>
+    </form>
+    
+    </div>
+</body>
+
+<footer>
+    <h4 class="ColorElement">
+        Form
+    </h4>
+</footer>
+</html>

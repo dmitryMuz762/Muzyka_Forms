@@ -1,0 +1,100 @@
+
+    .borderElement {
+
+        background-color: #b4eb9f;
+        border: 6px solid hsl(0, 0%, 0%);
+        border-radius: 180px;
+        box-shadow: 0px 10px 10px 5px #32d1e6;
+      }
+.borderBox
+{
+  background-color: #32dfc8;
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 180px;
+  
+}
+.Size_text
+{
+  height: 25px;
+  width: 200px;
+}
+.Size_form
+{
+  width: 350px;
+  height: 40px;
+}
+.my_button {
+  width: 120px;
+  height: 35px;
+  text-align: center
+
+}
+      .grid-contoiner
+      {
+       display: grid;
+       height: 100vh;
+       width: 60vh;
+       grid-template-rows: 1fr 2fr 2fr 2fr 2fr 1fr 1fr 1fr;
+       grid-template-columns: 1fr 3fr 1fr;
+       grid-template-areas: 
+       "d1 d2 d3"
+       "d1 d5 d3"
+       "d1 d6 d3"
+       "d1 d7 d3"
+       "d1 d8 d3"
+       "d1 d9 d3"
+       "d1 d10 d3"
+       "d1 d4 d3"
+      }
+
+      .ColorElement
+      {
+        background-color: #00000080;
+      }
+
+.d1
+{
+    grid-area: d1;
+}
+.d2
+{
+    grid-area: d2;
+}
+.d3
+{
+    grid-area: d3;
+}
+.d4
+{
+    grid-area: d4;
+}
+.d5
+{
+    grid-area: d5;
+}
+.d6
+{
+    grid-area: d6;
+}
+.d7
+{
+    grid-area: d7;
+}
+.d8
+{
+    grid-area: d8;
+}
+.d9
+{
+    grid-area: d9;
+}
+.d10
+{
+    grid-area: d10;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
